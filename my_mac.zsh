@@ -26,9 +26,6 @@ alias ll='ls -ahlF'
 alias lp='ls -A'
 alias h=history
 alias p='pwd'
-alias q='cd /Users/hemikk/workspace/beltal/quicker_buy/src/quickerbuy/'
-alias qb='cd /Users/hemikk/workspace/beltal/quicker_buy/'
-alias e='cd /Users/hemikk/workspace/beltal/blog/src/www.e-commercetips.com/'
 alias ns='sudo /opt/nginx/sbin/nginx' 
 alias nt='sudo /opt/nginx/sbin/nginx -t'
 alias nk='sudo kill -QUIT `cat /opt/nginx/logs/nginx.pid`' 
@@ -41,8 +38,6 @@ alias mongo='sudo /opt/mongodb/bin/mongo'
 alias redis='sudo /opt/redis/redis-server'
 alias 9='rvm 1.9.2-p136'
 alias 8='rvm 1.8.7-p330'
-alias ssh1='ssh quicker@quickerbuy.com'
-alias ssh2='ssh beltal@192.168.1.2'
 
 #rails 配置
 sc () {
