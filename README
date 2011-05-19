@@ -1,1 +1,2 @@
- copy of oh-my-zsh(https://github.com/robbyrussell/oh-my-zsh) for me
+A copy of oh-my-zsh(https://github.com/robbyrussell/oh-my-zsh) for me
+write `source ~/.myzsh/zshrc` in ~/.zshrc
