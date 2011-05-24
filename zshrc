@@ -6,3 +6,5 @@ source $ZSH/myzsh.sh
 
 #use mac write this in ~.zshrc
 #source $ZSH/my_mac.zsh
+#use linux write this in ~.zshrc
+#source $ZSH/my_linux.zsh
