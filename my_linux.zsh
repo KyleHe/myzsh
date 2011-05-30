@@ -72,3 +72,4 @@ alias ttl='tail -f ./log/test.log'
 alias sudo='sudo '
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 export EDITOR=vi
+export TERM="xterm-256color"
