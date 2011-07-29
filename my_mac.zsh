@@ -54,20 +54,19 @@ alias gb='git branch'
 #rails
 alias sc='rails console'
 alias scp='rails console production'
-alias ss='rails s'
-alias ssp='rails s -e production -p 4000'
-alias sspd='rails s -e production -p 4000 -d'
-alias ssd='rails s -u'
-alias dbc='rails dbconsole production'
-alias dbcp='rails dbconsole'
-alias sg='rails g'
+alias ss='rails server'
+alias ssp='rails server -e production -p 4000'
+alias sspd='rails server -e production -p 4000 -d'
+alias ssd='rails server -u'
+alias dbcp='rails dbconsole production'
+alias dbc='rails dbconsole'
+alias sg='rails generate'
 alias tdl='tail -f ./log/development.log'
 alias ttl='tail -f ./log/test.log'
 alias rst='touch tmp/restart.txt'
 
 
 alias sudo='sudo '
-
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 #打开textmate得 Help → Terminal Usage…点 create link就ok了
