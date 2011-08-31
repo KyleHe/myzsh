@@ -39,9 +39,12 @@ alias gp='git push'
 alias gg='git pull'
 alias gd='git diff'
 alias gc='git commit'
+alias gcm='git commit -m'
 alias gca='git commit -a'
+alias gcam='git commit -am'
 alias gco='git checkout'
 alias gb='git branch'
+alias gl='git log'
 
 #rails
 alias sc='rails console'
