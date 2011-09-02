@@ -20,6 +20,10 @@ alias h=history
 alias p='pwd'
 alias grep='grep --color=auto'
 
+#rvm
+alias 8='rvm 1.8.7'
+alias 9='rvm 1.9.2'
+
 #svn
 alias up='svn up'
 alias st='svn st'
@@ -70,11 +74,6 @@ alias rst='touch tmp/restart.txt'
 
 
 alias sudo='sudo '
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/mysql/bin
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
-#打开textmate得 Help → Terminal Usage…点 create link就ok了
-# ln -s /Applications/TextMate.app/Contents/Resources/mate /usr/bin/mate
-# svn switch --relocate http://oldPath http://newpath
-export PATH=/opt/local/bin:$PATH:/usr/local/mysql/bin
-export MANPATH=$MANPATH:/opt/local/share/man
-export INFOPATH=$INFOPATH:/opt/local/share/info
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
