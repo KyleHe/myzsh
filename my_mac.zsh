@@ -18,7 +18,6 @@ alias ll='ls -ahlF'
 alias lp='ls -A'
 alias h=history
 alias p='pwd'
-alias grep='grep --color=auto'
 
 #rvm
 alias 8='rvm 1.8.7'
@@ -65,9 +64,8 @@ alias ss='rails server'
 alias ssp='rails server -e production -p 4000'
 alias sspd='rails server -e production -p 4000 -d'
 alias ssd='rails server -u'
-alias dbcp='rails dbconsole production'
-alias dbc='rails dbconsole'
 alias sg='rails generate'
+alias bi="bundle install"
 alias tdl='tail -f ./log/development.log'
 alias ttl='tail -f ./log/test.log'
 alias rst='touch tmp/restart.txt'

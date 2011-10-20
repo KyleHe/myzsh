@@ -1,5 +1,7 @@
 export ZSH=$HOME/.myzsh
 
+export VIM=$HOME/.VIM
+
 export ZSH_THEME="mrtazz"
 
 source $ZSH/myzsh.sh
