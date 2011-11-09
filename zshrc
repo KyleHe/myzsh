@@ -10,6 +10,6 @@ source $ZSH/myzsh.sh
 
 #write 'source ~/.myzsh/zshrc' in ~/.zshrc
 #use mac write this in ~/.zshrc
-#source $ZSH/my_mac.zsh
+#source $ZSH/mac.zsh
 #use linux write this in ~/.zshrc
-#source $ZSH/my_linux.zsh
+#source $ZSH/linux.zsh

@@ -1,4 +1,5 @@
 #aliases
+alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias gvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 alias mate='/Applications/TextMate.app/Contents/Resources/mate'
