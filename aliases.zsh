@@ -12,7 +12,7 @@ alias p='pwd'
 
 #rvm
 alias 8='rvm 1.8.7'
-alias 9='rvm 1.9.2'
+alias 9='rvm 1.9.3'
 
 #svn
 alias up='svn up'
