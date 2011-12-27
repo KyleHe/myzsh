@@ -32,7 +32,7 @@ alias mongod='sudo /opt/mongodb/bin/mongod --dbpath=/opt/data/db'
 alias mongo='sudo /opt/mongodb/bin/mongo'
 
 #redis
-alias redis='sudo /opt/redis/redis-server'
+alias redis='sudo /opt/redis/src/redis-server'
 
 #git
 alias gs='git status'
@@ -48,6 +48,7 @@ alias gcam='git commit -am'
 alias gco='git checkout'
 alias gb='git branch'
 alias gl='git log'
+alias gm='git merge'
 
 #rails
 alias sc='rails console'
