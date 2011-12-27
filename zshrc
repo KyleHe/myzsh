@@ -9,7 +9,9 @@ source $ZSH/myzsh.sh
 #sudo ~/.myzsh/trackpoint
 
 #write 'source ~/.myzsh/zshrc' in ~/.zshrc
-#use mac write this in ~/.zshrc
+
+#use Mac write this in ~/.zshrc
 #source $ZSH/mac.zsh
-#use linux write this in ~/.zshrc
+
+#use Linux write this in ~/.zshrc
 #source $ZSH/linux.zsh
