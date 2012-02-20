@@ -29,6 +29,7 @@ alias nrr='nr ; np'
 alias nconf='sudo v /opt/nginx/conf/nginx.conf'
 
 #mongodb
+alias mongof='sudo /opt/mongodb/bin/mongod --dbpath=/opt/data/db --fork --logpath /var/log/mongodb.log --logappend'
 alias mongod='sudo /opt/mongodb/bin/mongod --dbpath=/opt/data/db'
 alias mongo='sudo /opt/mongodb/bin/mongo'
 
