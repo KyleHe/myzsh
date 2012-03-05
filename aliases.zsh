@@ -14,6 +14,7 @@ alias p='pwd'
 alias 87='rvm 1.8.7'
 alias 92='rvm 1.9.2'
 alias 93='rvm 1.9.3'
+alias 9p='rvm ruby-1.9.3-p125-perf'
 
 #svn
 alias up='svn up'
@@ -51,6 +52,7 @@ alias gco='git checkout'
 alias gb='git branch'
 alias gl='git log'
 alias gm='git merge'
+alias grm='git status | grep deleted | awk '\''{print $3}'\'' | xargs git rm'
 
 #rails
 alias sc='rails console'
