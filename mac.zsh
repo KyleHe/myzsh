@@ -12,3 +12,4 @@ alias ls='ls -G'
 source $ZSH/aliases.zsh
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X12/bin:/usr/local/mysql/bin:$HOME/.rvm/bin
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
+source "$HOME/.rvm/scripts/rvm"
