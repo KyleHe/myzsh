@@ -7,14 +7,12 @@ alias ...='cd ../..'
 alias l='ls'
 alias ll='ls -ahlF'
 alias lp='ls -A'
-alias h=history
+alias h='history'
 alias p='pwd'
 
 #rvm
-alias 87='rvm 1.8.7'
-alias 92='rvm 1.9.2'
-alias 93='rvm 1.9.3'
-alias 9p='rvm ruby-1.9.3-p125-perf'
+alias 2='rvm use 2.0.0'
+alias 3='rvm use 1.9.3'
 
 #svn
 alias up='svn up'
