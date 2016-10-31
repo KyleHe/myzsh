@@ -3,8 +3,6 @@
 
 * run 'ln -s ~/.myzsh/zshrc ~/.zshrc && ln -s ~/.myzsh/gemrc ~/.gemrc && ln -s ~/.myzsh/irbrc ~/.irbrc'
 
-* use Mac write this in ~/.zshrc
-* source $ZSH/mac.zsh
+* use Mac write 'source $ZSH/mac.zsh' in ~/.zshrc
 
-* use Linux write this in ~/.zshrc
-* source $ZSH/linux.zsh
+* use Linux write 'source $ZSH/linux.zsh' in ~/.zshrc
