@@ -1,6 +1,6 @@
-export ZSH=$HOME/.myzsh
+#run 'ln -s ~/.myzsh/zshrc ~/.zshrc && ln -s ~/.myzsh/gemrc ~/.gemrc && ln -s ~/.myzsh/irbrc ~/.irbrc'
 
-export VIM=$HOME/.vim
+export ZSH=$HOME/.myzsh
 
 export RVM=$HOME/.rvm
 
@@ -9,8 +9,6 @@ export ZSH_THEME="mrtazz"
 source $ZSH/myzsh.sh
 
 #sudo ~/.myzsh/trackpoint
-
-#write 'source ~/.myzsh/zshrc' in ~/.zshrc
 
 #use Mac write this in ~/.zshrc
 #source $ZSH/mac.zsh

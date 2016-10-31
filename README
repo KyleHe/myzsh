@@ -1,6 +1,6 @@
 A copy of oh-my-zsh(https://github.com/robbyrussell/oh-my-zsh) for me
 
-write `source ~/.myzsh/zshrc` in ~/.zshrc
+run 'ln -s ~/.myzsh/zshrc ~/.zshrc && ln -s ~/.myzsh/gemrc ~/.gemrc && ln -s ~/.myzsh/irbrc ~/.irbrc'
 
 use Mac write this in ~/.zshrc
 source $ZSH/mac.zsh
