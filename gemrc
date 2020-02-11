@@ -1,6 +1,2 @@
 # run 'ln -s ~/.myzsh/gemrc ~/.gemrc'
----
-:sources:
-- https://gems.ruby-china.org/
-- http://gems.github.com/
 gem: --no-ri --no-rdoc

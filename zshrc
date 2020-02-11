@@ -2,16 +2,25 @@
 
 export ZSH=$HOME/.myzsh
 
-export RVM=$HOME/.rvm
+#export RVM=$HOME/.rvm
 
 export ZSH_THEME="mrtazz"
 
-source $ZSH/myzsh.sh
+source $ZSH/oh-my-zsh.sh
+
+DISABLE_AUTO_UPDATE="true"
 
 #sudo ~/.myzsh/trackpoint
 
+plugins=(
+  git
+  osx
+  rbenv
+  ruby
+)
+
 #use Mac write this in ~/.zshrc
-#source $ZSH/mac.zsh
+source $ZSH/mac.zsh
 
 #use Linux write this in ~/.zshrc
 #source $ZSH/linux.zsh

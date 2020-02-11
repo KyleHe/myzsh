@@ -1,4 +1,5 @@
 # run 'ln -s ~/.myzsh/irbrc ~/.irbrc'
+# run 'gem install crack ap hirb wirble'
 require 'rubygems' rescue nil
 require 'wirble'
 require 'hirb'
