@@ -9,6 +9,6 @@ alias quicktime='open -a QuickTime\ Player'
 alias qq='open -a QQ'
 alias ls='ls -G'
 source $ZSH/aliases.zsh
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/mysql/bin
+export PATH=~/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 #source "$HOME/.rvm/scripts/rvm"

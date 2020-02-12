@@ -10,13 +10,12 @@ alias lp='ls -A'
 alias h='history'
 alias p='pwd'
 
-#rvm
-alias 2='rvm use 2.0.0'
-alias 3='rvm use 1.9.3'
-
-#svn
-alias up='svn up'
-alias st='svn st'
+# Ruby
+alias rb="ruby"
+alias gin="gem install"
+alias gun="gem uninstall"
+alias gli="gem list"
+alias sgem='sudo gem'
 
 #nginx
 alias ns='sudo /opt/nginx/sbin/nginx'
