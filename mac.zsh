@@ -11,4 +11,4 @@ alias ls='ls -G'
 source $ZSH/aliases.zsh
 export PATH=~/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
-#source "$HOME/.rvm/scripts/rvm"
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
