@@ -2,17 +2,16 @@
 
 export ZSH=$HOME/.myzsh
 
-#use mac write this in ~/.zshrc
-source $ZSH/mac.zsh
+export ZSH_THEME="mrtazz"
 
 #use linux write this in ~/.zshrc
 #source $ZSH/linux.zsh
 
 source $ZSH/oh-my-zsh.sh
 
+#use mac write this in ~/.zshrc
+source $ZSH/mac.zsh
+
 DISABLE_AUTO_UPDATE="true"
 
-plugins=()
 eval "$(rbenv init -)"
-
-export ZSH_THEME="mrtazz"

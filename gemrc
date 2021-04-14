@@ -1,2 +1,2 @@
 # run 'ln -s ~/.myzsh/gemrc ~/.gemrc'
-gem: --no-ri --no-rdoc
+gem: --no-document
