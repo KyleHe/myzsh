@@ -1,4 +1,6 @@
-#run 'ln -s ~/.myzsh/zshrc ~/.zshrc && ln -s ~/.myzsh/gemrc ~/.gemrc && ln -s ~/.myzsh/irbrc ~/.irbrc'
+#run 'ln -s ~/.myzsh/zshrc ~/.zshrc && ln -s ~/.myzsh/ghostty_config ~/.config/ghostty/config && ln -s ~/.myzsh/gemrc ~/.gemrc && ln -s ~/.myzsh/irbrc ~/.irbrc'
+#run 'ln -s ~/.myzsh/starship.toml ~/.config/starship.toml && ln -s ~/.myzsh/tmux.conf ~/.tmux.conf'
+#starship and tmux install 'brew install starship tmux' 'git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm' 按 Ctrl+b 然后按 Shift+i
 
 export ZSH=$HOME/.myzsh
 

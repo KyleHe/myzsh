@@ -1,0 +1,86 @@
+# ------------------------------------------------
+# 1. 基础外观与主题
+# ------------------------------------------------
+# 列出所有可用主题: ghostty +list-themes
+theme = "desert"
+# 替换成你喜欢的主题，例如 "Dracula", "tokyonight"
+
+# 窗口基础设置
+# 是否显示窗口标题栏[reference:2]
+window-decoration = true
+# 跟随系统主题（亮色/暗色）[reference:3]
+window-theme = system
+
+# 背景透明度与模糊 (macOS)
+# 0.0 完全透明 - 1.0 完全不透明[reference:4]
+background-opacity = 0.85
+# 背景模糊半径 (仅macOS)[reference:5]
+background-blur-radius = 20
+
+# 字体配置
+# 使用系统等宽字体[reference:6]
+font-family = "my"
+# 字体大小[reference:7]
+font-size = 13.5
+font-thicken = true
+adjust-cell-height = 2
+
+# 光标样式
+# bar: 竖线, block: 方块[reference:8][reference:9]
+cursor-style = block
+# 光标是否闪烁[reference:10]
+cursor-style-blink = true
+# 光标不透明度[reference:11]
+cursor-opacity = 0.85
+
+# ------------------------------------------------
+# 2. 核心工作流与快捷键
+# ------------------------------------------------
+# 窗口状态保存：务必设置为 always，防止更新或重启后会话丢失[reference:12]
+window-save-state = always
+
+# Shell集成 (自动提示符、光标变化等)[reference:13]
+shell-integration = zsh
+# 开启Shell集成[reference:14]
+# shell-integration-features = true  # 启用所有集成特性[reference:15]
+
+# 为tmux的窗口选择做映射
+# CMD+数字切换窗口
+keybind = cmd+digit_1=text:\x02\x31
+keybind = cmd+digit_2=text:\x02\x32
+keybind = cmd+digit_3=text:\x02\x33
+keybind = cmd+digit_4=text:\x02\x34
+keybind = cmd+digit_5=text:\x02\x35
+keybind = cmd+digit_6=text:\x02\x36
+keybind = cmd+digit_7=text:\x02\x37
+keybind = cmd+digit_8=text:\x02\x38
+keybind = cmd+digit_9=text:\x02\x39
+# CMD+t新建窗口
+keybind = cmd+t=text:\x02\x63
+# CMD+d和D新建右侧和下方窗口
+keybind = cmd+d=text:\x02\x7C
+keybind = cmd+shift+d=text:\x02\x2D
+# CMD+w关闭窗口
+keybind = cmd+w=text:\x02\x78
+# CMD+HJKL移动窗口
+keybind = cmd+h=text:\x02\x1b[D
+keybind = cmd+l=text:\x02\x1b[C
+keybind = cmd+j=text:\x02\x1b[B
+keybind = cmd+k=text:\x02\x1b[A
+
+# ------------------------------------------------
+# 3. 性能优化与个性化
+# ------------------------------------------------
+# 性能与滚动
+# 设置滚动行数上限，避免内存占用过大[reference:16]
+scrollback-limit = 100000
+# 设为true时，新打开的会话都在同一窗口，避免多窗口混乱[reference:17]
+gtk-single-instance = true
+
+# 鼠标与粘贴
+# 选中文本即自动复制到剪贴板[reference:18]
+copy-on-select = clipboard
+# 打字时自动隐藏鼠标指针[reference:19]
+mouse-hide-while-typing = true
+# 开启粘贴保护[reference:20]
+clipboard-paste-protection = true
