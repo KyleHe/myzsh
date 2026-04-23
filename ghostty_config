@@ -19,7 +19,7 @@ background-blur-radius = 20
 
 # 字体配置
 # 使用系统等宽字体[reference:6]
-font-family = "my"
+font-family = "MesloLGM Nerd Font Mono","my"
 # 字体大小[reference:7]
 font-size = 13.5
 font-thicken = true
