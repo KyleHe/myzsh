@@ -20,6 +20,10 @@ alias gun="gem uninstall"
 alias gli="gem list"
 alias sgem='sudo gem'
 
+#python
+alias py="python3"
+alias python="python3"
+
 #nginx
 alias ns='sudo /opt/nginx/sbin/nginx'
 alias nt='sudo /opt/nginx/sbin/nginx -t'

@@ -2,7 +2,7 @@
 # 1. 基础外观与主题
 # ------------------------------------------------
 # 列出所有可用主题: ghostty +list-themes
-theme = "desert"
+theme = "Dracula"
 # 替换成你喜欢的主题，例如 "Dracula", "tokyonight"
 
 # 窗口基础设置
