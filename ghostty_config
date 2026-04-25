@@ -55,11 +55,15 @@ keybind = cmd+digit_6=text:\x02\x36
 keybind = cmd+digit_7=text:\x02\x37
 keybind = cmd+digit_8=text:\x02\x38
 keybind = cmd+digit_9=text:\x02\x39
+# CMD+b跳转至上一个窗口
+keybind = cmd+b=text:\x02\x62
 # CMD+t新建窗口
 keybind = cmd+t=text:\x02\x63
 # CMD+d和D新建右侧和下方窗口
 keybind = cmd+d=text:\x02\x7C
 keybind = cmd+shift+d=text:\x02\x2D
+# CMD+~新建~目录窗口
+keybind = cmd+`=text:\x02\x60
 # CMD+w关闭窗口
 keybind = cmd+w=text:\x02\x78
 # CMD+HJKL移动窗口
@@ -67,6 +71,8 @@ keybind = cmd+h=text:\x02\x1b[D
 keybind = cmd+l=text:\x02\x1b[C
 keybind = cmd+j=text:\x02\x1b[B
 keybind = cmd+k=text:\x02\x1b[A
+# 重新加载tmux的配置
+keybind = cmd+r=text:\x02\x72
 
 # ------------------------------------------------
 # 3. 性能优化与个性化

@@ -1,9 +1,10 @@
 #aliases
 alias v=vim
-alias g=gvim
-alias back='cd -'
+#alias g='cd ~'
+#alias b='cd -'
 alias ..='cd ..'
 alias ...='cd ../..'
+alias ....='cd ../../..'
 alias l='ls'
 alias ll='ls -ahlF'
 alias lp='ls -A'
