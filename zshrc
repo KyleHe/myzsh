@@ -22,6 +22,13 @@ plugins=(
 #use linux write this in ~/.zshrc
 #source $ZSH/linux.zsh
 
+# 自定义用户名显示
+if [[ "$USER" == "heshirui" ]]; then
+    export STARSHIP_USERNAME="KyleHe"
+else
+    export STARSHIP_USERNAME="$USER"
+fi
+
 # 历史命令保存位置
 HISTFILE=~/.zsh_history
 
