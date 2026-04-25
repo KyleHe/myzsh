@@ -18,9 +18,10 @@ $php\
 $java\
 $kotlin\
 $haskell\
-$python\
 $ruby\
+$python\
 [](fg:green bg:sapphire)\
+$docker_context\
 $conda\
 [](fg:sapphire bg:lavender)\
 $time\
@@ -136,7 +137,7 @@ style = "bg:green"
 format = '[[ $symbol( $version)(\(#$virtualenv\)) ](fg:crust bg:green)]($style)'
 
 [docker_context]
-symbol = ""
+symbol = ""
 style = "bg:sapphire"
 format = '[[ $symbol( $context) ](fg:crust bg:sapphire)]($style)'
 
