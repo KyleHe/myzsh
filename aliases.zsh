@@ -10,7 +10,7 @@ alias ll='ls -ahlF'
 alias lp='ls -A'
 alias h='history'
 alias p='pwd'
-alias c='clear'
+alias cl='clear'
 alias ports='netstat -tulanp'  # 查看端口占用
 alias m='if [ -n "$TMUX" ]; then echo "Already in tmux (use Ctrl+b s to switch)"; else tmux attach -t dev || tmux new -s dev; fi'
 
@@ -20,6 +20,9 @@ alias gin="gem install"
 alias gun="gem uninstall"
 alias gli="gem list"
 alias sgem='sudo gem'
+
+#Claude Code
+alias c="claude"
 
 #python
 alias py="python3"

@@ -8,6 +8,8 @@ $hostname\
 [](bg:peach fg:red)\
 $directory\
 [](fg:peach bg:green)\
+$ruby\
+$python\
 $c\
 $rust\
 $golang\
@@ -16,8 +18,6 @@ $php\
 $java\
 $kotlin\
 $haskell\
-$ruby\
-$python\
 [](bg:yellow fg:green)\
 $git_branch\
 $git_status\
